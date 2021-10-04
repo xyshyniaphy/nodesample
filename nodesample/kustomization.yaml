@@ -1,0 +1,3 @@
+resources:
+  - nodesample-deployment.yaml
+  - nodesample-service.yaml
