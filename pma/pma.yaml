@@ -34,11 +34,11 @@ spec:
         - containerPort: 80
         env:
         - name: PMA_ABSOLUTE_URI
-          value: "localhost:8088"
+          value: basic-tidb.tidb-cluster.svc.cluster.local
         - name: PMA_HOST
           value: mysql
         - name: PMA_PORT
-          value: "3306"
+          value: "4000"
         - name: MYSQL_ROOT_PASSWORD
           valueFrom:
             secretKeyRef:
